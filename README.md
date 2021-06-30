@@ -1,2 +1,2 @@
 # Website-Project
- A team work of a an online technology community website under the university curricilum 
+ A team work of  an online technology community website under the university curricilum 
