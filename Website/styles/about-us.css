@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.about{
+    box-sizing: content-box;
+    margin-top: 4%;
+    height: max-content;
+    background-image: url(img/about.jpgm);
+    background-color: skyblue;
+    background-size: 100% 100%;
+    font-family: 'Montserrat',sans-serif;
+}
+.sp
+{
+    height: 40px;
+}
+.acontainer{
+    box-sizing: content-box;
+    padding: 5%;
+    height: max-content;
+    width: 50%;
+    margin-left: 21%;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 20%;
+    text-align: center;
+}
+.acontainer:hover{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    border-radius: 20%;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    animation-name: colors;
+    animation-duration: 5s;
+}
+@keyframes colors{
+    0%{
+        background-color: rgba(0, 0, 0, 0.226);
+    }
+    100%{
+        background-color: rgba(255, 255, 255, 0.411);
+    }
+}
+.atitle{
+    font-size: 2em;
+    font-weight: bold;
+}
+.des{
+    font-size: 1em;
+    font-weight: lighter;
+}
+.members{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: max-content;
+    width: 100%;
+    justify-content: space-around;
+}
+.mtitle{
+    flex-basis: 100%;
+    height: max-content;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 5%;
+}
+.member{
+    box-sizing: content-box;
+    margin-bottom: 20px;
+    padding: 5%;
+    flex-basis: 35%;
+    height: 45%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 20%;
+    text-align: center;
+}
+.member:hover{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    border-radius: 20%;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    animation-name: colors;
+    animation-duration: 3s;
+}
+.mname{
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.mdes{
+    font-size: 1em;
+    font-weight: lighter;
+}
+@media all and (min-width: 350px) and (max-width: 880px){
+.about{
+        margin-top: 4%;
+        height: max-content;
+        background-image: url(img/about.jpg);
+        background-size: 100% 100%;
+        font-family: 'Montserrat',sans-serif;
+}
+.sp
+{
+    height: 50px;
+}
+.acontainer{
+    width: 80%;
+    margin-left: 5%;
+}
+.acontainer:touch{
+    background: rgba(255, 255, 255, 0.911);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 16.0px );
+    border-radius: 20%;
+}
+.member{
+    flex-basis: 80%;
+}
+}
